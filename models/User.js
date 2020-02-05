@@ -10,13 +10,15 @@ const userSchema = new Schema({
         type: String,
         required: true
     },
-    slackID: String,
     googleID: String,
     image: String,
     role: {
         type: String,
         enum: ["ADMIN", "GUEST"],
         default: "GUEST"
+    },
+    favourite_songs: {
+        type: Array
     }
 }, {
     timestamps: true
