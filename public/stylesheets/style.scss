@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 .container {
     display: flex;
     align-items: center;
@@ -8,7 +9,8 @@
 }
 
 #logo-img {
-    border: 1px solid red;
+    background-image: url(../images/Page-1.png);
+    background-size: contain;
     width: 100px;
     height: 100px;
 }
@@ -28,14 +30,36 @@
     color: white;
     width: 100%;
     text-align: center;
+    border-radius: 15px;
 }
 
 #option-container-google {
+    padding: 5px 10px;
     background-color: white;
     color: #FEAB99;
+    width: 100%;
+    text-align: center;
     border: 1px solid #FEAB99;
+    border-radius: 15px;
 }
 
 #option-container-signup {
-    color: black;
+    padding: 5px 10px;
+    background-color: white;
+    color: #FEAB99;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #FEAB99;
+    border-radius: 15px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #FEAB99;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#foto {
+    width: 50%;
 }
